@@ -1,0 +1,107 @@
+
+*{
+  font-size: 12pt;
+  font-family: Arial,Helvetica,sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+#banner{
+  background:url(pics/rancidbannerbg.png);
+    background-position: center;
+    min-height:50px;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+h1{
+  font-family: Georgia, "Times New Roman", sans-serif;
+  text-shadow: 3px 3px #999999;
+  font-size: 24pt ;
+  font-weight: bold;
+  position: center;
+  text-align: center;
+}
+#content{
+  width:92%;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+div.inline { 
+  float:left;
+}
+span.p{
+  display: inline-block;
+}
+#block1{
+  box-shadow: 0 0 5px 5px gray;
+  text-align: left;
+  width:55%;
+  background-color: #EEEEEE;
+  height: 100%;
+}
+#block2{
+  text-align: left;
+  width:45%;
+  background-color: green;
+  height: 100%;
+}
+#block3{
+  
+}
+#pic1{
+  position: left;
+}
+#container1{
+  width: 100%;
+  background-color: #DCDCDC;
+  height: 100%;
+}
+#reviews{
+  border: 2px solid gray;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  height: 100%;
+  vertical-align: middle;
+  text-align: left;
+}
+.column {
+  box-shadow: 0 0 5px 5px gray;
+  text-align: left;
+  float: left;
+  width: 55%;
+  height: 100% auto;
+  background-color: #EEEEEE;
+  background-image: url(pics/rancidbannerbg.png);
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  /* Should be removed. Only for demonstration */
+}
+
+.column1{
+  
+  float: right;
+  width: 45%;
+  height: 100%;
+  background: url(pics/bg.png);
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
+  background-size: auto;
+  
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+}
